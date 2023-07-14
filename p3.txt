@@ -1,0 +1,6 @@
+Podría agregarse un atributo en la clase cuenta que corresponda a la cantidad diaria transferida.
+Después, se tendría que verificar en la función pagar si esa variable es menor a 200.
+De igual forma, por cada transferencia, la variable se actualizará con el nuevo monto.
+
+En los casos de prueba se adicionaria cuando se realiza una transferencia y no se ha pasado el limite de 200, devolviendo un status code de exito.
+Por otro lado, si se excede el monto, se deberia devolver un status code de error y el test verificaria eso.
